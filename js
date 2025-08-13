@@ -9,13 +9,15 @@ botoes [1]. onclick =aumentatamanho;
 
 function diminuitamanho(){
     if(tamanhosenha > 1){
-    tamanhosenha = tamanhosenha-1;
+        // tamanhosenha =  tamanhosenha-1;
+    tamanhosenha--;
     }
     numerosenha.textContent = tamanhosenha;
 }
 function aumentatamanho(){
     if(tamanhosenha < 20){
-    tamanhosenha = tamanhosenha+1;
+   // tamanhosenha = tamanhosenha+1;
+   tamanhosenha++;
     }
     numerosenha = tamanhosenha;
 }
